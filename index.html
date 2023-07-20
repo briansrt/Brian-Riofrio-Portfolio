@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio web de Brian Riofrio diseñada para que conozcas un poco más sobre mis habilidades y experiencias.">
+    <meta name="title" content="briansrt">
+    <meta name="keywords" content="Portafolio, curriculum, briansrt, Briansrt, brian, Brian, SRT, srt, Mi portafolio">
+    <meta name="url" content="https://briansrt.netlify.app/">
+    <meta name="identifier-URL" content="https://briansrt.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://briansrt.netlify.app/">
+    <meta property="og:tittle" content="Portfolio de Brian Riofrio">
+    <meta property="og:description" content="Portafolio web de Brian Riofrio diseñada para que conozcas un poco más sobre mis habilidades y experiencias.">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta property="og:image" content="/Imagenes/Logo_og.png">
+    <link rel="canonical" href="https://briansrt.netlify.app/">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#fd9681">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffe8e8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap');
+      </style>
+    <title>BrianSRT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header" id="Header">
+        <div class="nav-container" id="Nav">
+            <input type="checkbox" id="nav">
+            <div class="logo">
+                <a href="/"><img src="/Imagenes/Logo.webp" class="Logo-bsrt" id="Logo-bsrt" width="280" height="82" alt="Logo briansrt - portfolio briansrt"></a> 
+            </div>
+            <div class="menu" id="menu">
+                <nav id="navbar">
+                    <ul> 
+                        <li><a href="#Sobre-Mí" class="menu-link" data-target="Sobre-Mí" >Sobre mí</a></li>
+                        <li><a href="#Mi-Trayectoria" class="menu-link" data-target="Mi-Trayectoria" >Mi trayectoria</a></li>
+                        <li><a href="#Mis-proyectos" class="menu-link" data-target="Mis-proyectos">Mis proyectos</a></li>
+                        <li><a href="#Contáctame" class="menu-link" data-target="Contáctame" >Contáctame</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu2">
+                <span class="linea1"></span>
+                <span class="linea2"></span>
+                <span class="linea3"></span>
+            </div>
+            <button class="light_theme" id="switch" aria-label="Cambiar tema">
+                <svg class="darksvg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg>
+                <svg class="lightsvg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></svg>
+            </button>
+        </div>
+        
+    </header>
+    <section class="container_rh1">
+        <div class="redes">
+            <div class="outer astro">
+                <div class="inner astro"></div>
+            </div>
+            <ul class="logos_redes astro">
+                <li class="links">
+                    <a href="https://github.com/briansrt" aria-label="Enlace a mi perfil de Github">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                    </a>
+                </li>
+                <li class="links">
+                    <a href="https://www.linkedin.com/in/ing-brian-riofrio/" aria-label="Enlace a mi perfil de Linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    </a>
+                </li>
+            </ul>
+            <div class="outer astro">
+                <div class="inner astro"></div>
+            </div>
+        </div>
+    
+        <div class="header-content">
+            <p class="salu">Hola 👋🏼, soy</p>
+            <h1>Brian S. <br> Riofrio Trochez</h1>
+            <p class="ing">Ingeniero de sistemas</p>
+            <div class="btn">
+                <a href="a" class="btn-1"> <svg class="svgbtn" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg> Descargar CV</a>
+                <a href="#Contáctame" class="btn-2"> <svg class="svgbtn" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg> Contáctame</a>
+            </div>
+        </div>
+    </section>
+    <main class="main">
+        <section class="sobre-mi" id ="Sobre-Mí">
+            <h2 class="titulos">Sobre mí</h2>
+            <p class="subtitulo">Quién soy</p>                                      
+            <div class="sobremi-content">     
+                <img class="foto-1" src="Imagenes/Foto.webp" alt="Foto de briansrt - portfolio briansrt" width="380" height="380"> 
+                <p class="text-sobremi">
+                    Como <span class="txt-ing">ingeniero de sistemas, </span>
+                    mi enfoque siempre ha estado en el diseño y desarrollo de soluciones 
+                    innovadoras que impulsen el progreso y mejoren la eficiencia en diversos entornos.
+                    Puedes ver algunos de mis proyectos en la seccion de
+                    <a class="link-proyec" href="#Mis-proyectos">
+                        proyectos.
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+                        
+                    </a><br>
+                    Estoy comprometido con la actualización constante de mis habilidades y la 
+                    búsqueda de oportunidades desafiantes para seguir creciendo como profesional.
+                    Si tienes alguna pregunta o algún comentario no dudes en
+                    <a class="link-contact" href="#Contáctame">
+                        contactarme.
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+                    </a>
+
+                </p>
+            </div>
+        </section>
+        <section class="trayectoria" id="Mi-Trayectoria">
+            <h3 class="titulos">Mi trayectoria</h3>
+            <p class="subtitulo">Educación y trabajo</p>
+            <div class="botones">
+                <button class="edu">
+                    Educación
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>
+                </button>
+                <button class="trabajo">
+                    Trabajo
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/></svg>
+                </button>
+            </div>
+        </section>
+        <section class="cont_trayectoria">
+            <ol class="educacion_body" data-id="1">
+                <li class="unicatolica">
+                    <div class="cont_unicatolica">
+                        <img class="logo_unicatolica" src="Imagenes/Unicatolica.webp" alt="Logo Unicatolica briansrt - portfolio briansrt" width="103" height="100">
+                        <div class="separacion">
+                        </div>
+                    </div>
+                    
+                    <div class="educacion_text">
+                        <h1 class="h1-catolica">Fundación Universitaria Católica</h1>
+                        <time class="time_unicatolica">
+                            Febrero 2022 - Actualmente
+                        </time>
+                        <p class="p_unicatolica">
+                            Ingeniería de Sistemas
+                        </p>
+                    </div>
+                </li>
+            </ol>
+            <ol class="trabajo_body">
+                <li class="trabajo">
+                    <p>lorem</p>
+                </li>
+            </ol>
+        </section>
+       
+
+        <section class="proyectos" id="Mis-proyectos">
+            <h4 class="titulos">Mis proyectos</h4>
+            <p class="subtitulo">Algunos de mis proyectos</p>
+            <div class="cont_proyectos">
+                    <div class="cont_img">
+                        <img class="imgs_proyectos" src="Imagenes/Java.png" alt="Proyectos de briansrt - portfolio briansrt" width="350" height="220">
+                    </div>
+            
+                <div class="cont_text">
+                    <div class="habilidades">
+
+                    </div>
+                    <h5 class="h5">Titulo proyecto</h5>
+                    <p class="text_proyecto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestias illo 
+                        earum nisi delectus laboriosam nihil distinctio? Laborum corporis ea veritatis, 
+                        cumque incidunt labore, saepe tempora culpa sit natus similique!
+                    </p>
+                </div>
+        </div>
+        </section>
+
+        <section class="contacto" id="Contáctame">
+            <div class="contacto_container">
+                <span class="p_ch">¡No dudes en contactarte conmigo!</span>
+                <h1 class="h1_contacto">
+                    <span class="p_contact">
+                        Contáctame.&nbsp;
+                        <span class="animacion_contact">&nbsp;</span>
+                    </span>
+                </h1>
+                <p class="text_contact">
+                    Brian S. Riofrio Trochez <br>
+                    <svg class="svgcorreo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg> brianstevenriofriogmail.com <br>
+                    Cali, Colombia
+                </p>
+            </div>
+            <div class="form_container">
+                <form action="https://formsubmit.co/brianstevenriofrio@gmail.com" method="POST" id="form_contact" class="form">
+                    <input type="text" id="from_name" name="from_name" class="input_form" placeholder="Nombre" required>
+                    <input type="email" id="from_email" name="from_email" class="input_form" placeholder="Correo electrónico" required>
+                    <input type="text" placeholder="Asunto" name="asunto" class="input_form" required>
+                    <textarea id="mensaje" name="mensaje" rows="5" class="input_message" placeholder="Mensaje" required></textarea>
+                    <input id="boton_enviar" class="btn_enviar" type="submit"  value= "Enviar">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </section>
+        <button class="inicio" id="inicio">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <polyline points="6 15 12 9 18 15"></polyline></svg>
+        </button>
+        <script src="script.js"></script>
+
+
+    </main>
+</body>
+</html>
