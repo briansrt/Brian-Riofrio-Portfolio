@@ -46,6 +46,9 @@
         background: #e8eaed;
         box-shadow: 0 0 30px 20px #e8eaed;
     }
+    .containlink svg{
+        fill: #e8eaed;
+    }
     .git a svg{
         fill: #9aa0a6;
     }
@@ -381,7 +384,7 @@ body {
     color: #595657;
 }
 .logo_unicatolica {
-    margin-left: 120px;
+    margin-left: 75px;
 }
 .proyectos {
     display: flex;
@@ -419,8 +422,9 @@ body {
     max-width: 512px;
 }
 .h5 {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 36px;
+    margin: 12px 0 15px;
 }
 .text_proyecto{
     font-family: 'General Sans', sans-serif;
@@ -430,8 +434,31 @@ body {
 }
 .habilidades {
     display: flex;
-    gap: 4px;
+    gap: 20px;
     margin-bottom: 8px;
+}
+.habilidades svg{
+    height: 23px;
+}
+.html{
+    fill: #E44D26;
+}
+.css{
+    fill: #2965f1;
+}
+.js{
+    fill: #f7df1e;
+}
+.containlink{
+    display: flex;
+    gap: 20px;
+    margin-top: 12px;
+}
+.containlink svg{
+    height: 30px;
+}
+.containlink svg:hover{
+    fill: tomato;
 }
 .contain_proyectos{
     display: grid;
@@ -763,6 +790,9 @@ body {
     }
     .proyectos{
         padding: 0 16px;
+    }
+    .h5{
+        font-size: 40px;
     }
     .cont_proyectos{
         flex-direction: column-reverse;
