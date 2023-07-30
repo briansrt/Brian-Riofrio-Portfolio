@@ -4,38 +4,35 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
-<url>
-  <loc>https://briansrt.netlify.app/</loc>
-  <lastmod>2023-07-25T18:59:50+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://briansrt.netlify.app/#Sobre-Mí</loc>
-  <lastmod>2023-04-25</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://briansrt.netlify.app/#Mi-Trayectoria</loc>
-  <lastmod>2023-04-25</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://briansrt.netlify.app/#Mis-proyectos</loc>
-  <lastmod>2023-06-25</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://briansrt.netlify.app/#Contáctame</loc>
-  <lastmod>2023-07-25</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
+  <url>
+    <loc>https://briansrt.netlify.app/</loc>
+    <lastmod>2023-07-29T22:20:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://briansrt.netlify.app/#Sobre-Mí</loc>
+    <lastmod>2023-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://briansrt.netlify.app/#Mi-Trayectoria</loc>
+    <lastmod>2023-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://briansrt.netlify.app/#Mis-proyectos</loc>
+    <lastmod>2023-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://briansrt.netlify.app/#Contáctame</loc>
+    <lastmod>2023-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
